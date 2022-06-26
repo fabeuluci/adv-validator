@@ -1,0 +1,25 @@
+{
+  "name": "adv-validator",
+  "version": "1.0.2",
+  "description": "Validate value structure",
+  "license": "MIT",
+  "author": {
+    "name": "Fabeuluci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabeuluci/adv-validator.git"
+  },
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "scripts": {
+    "test": "q-test",
+    "compile": "rm -rf out && tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "@types/q-test": "^1.0.0",
+    "q-test": "^1.0.0"
+  }
+}
