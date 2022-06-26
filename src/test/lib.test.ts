@@ -2,6 +2,7 @@ import * as assert from "assert";
 import { ValidatorBuilder } from "../ValidatorBuilder";
 import { ValidatorException } from "../ValidatorException";
 import { ValidatorExecutor } from "../ValidatorExecutor";
+import "q2-test";
 
 it("Should validation successfully ends", () => {
     const builder = new ValidatorBuilder();
